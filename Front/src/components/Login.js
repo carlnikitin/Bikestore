@@ -46,7 +46,7 @@ class Login extends React.Component {
           <div className="row">
 
             <div className="col-md-6 offset-md-3 col-xs-12">
-              <h1 className="text-xs-center">Sign In</h1><br></br>
+              <h1 className="text-xs-center">Sign In</h1>
 
               <ListErrors errors={this.props.errors} />
 
