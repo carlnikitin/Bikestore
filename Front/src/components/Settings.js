@@ -67,15 +67,6 @@ class SettingsForm extends React.Component {
 
           <fieldset className="form-group">
             <input
-              className="form-control"
-              type="text"
-              placeholder="URL of profile picture"
-              value={this.state.image}
-              onChange={this.updateState('image')} />
-          </fieldset>
-
-          <fieldset className="form-group">
-            <input
               className="form-control form-control-lg"
               type="text"
               placeholder="Username"
@@ -83,15 +74,7 @@ class SettingsForm extends React.Component {
               onChange={this.updateState('username')} />
           </fieldset>
 
-          <fieldset className="form-group">
-            <textarea
-              className="form-control form-control-lg"
-              rows="8"
-              placeholder="Short bio about you"
-              value={this.state.bio}
-              onChange={this.updateState('bio')}>
-            </textarea>
-          </fieldset>
+          
 
           <fieldset className="form-group">
             <input
