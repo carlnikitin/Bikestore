@@ -103,7 +103,14 @@ class Editor extends React.Component {
               <form>
                 <fieldset>
 
-                  
+                  <fieldset className="form-group">
+                    <input
+                      className="form-control form-control-lg"
+                      type="text"
+                      placeholder="Article Title"
+                      value={this.props.title}
+                      onChange={this.changeTitle} />
+                  </fieldset>
 
                   <fieldset className="form-group">
                     <input
