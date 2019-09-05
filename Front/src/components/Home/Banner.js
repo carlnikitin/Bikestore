@@ -10,7 +10,7 @@ const Banner = ({ appName, token }) => {
         <h1 className="logo-font">
           Bikestore
         </h1>
-        <p>A place for bikes.</p>
+        <p>Time for a new better bike.</p>
       </div>
     </div>
   );
