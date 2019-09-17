@@ -71,6 +71,8 @@ class Login extends React.Component {
                       onChange={this.changePassword} />
                   </fieldset>
 
+                  <img class="bike_icon" src="https://cdn.dribbble.com/users/10896/screenshots/3482959/bikes-mtn-01.png"></img>
+
                   <button
                     className="btn btn-lg btn-primary pull-xs-right"
                     type="submit"

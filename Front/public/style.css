@@ -17,13 +17,17 @@ html {
 /*!normalize.css commit fe56763 | MIT License | github.com/necolas/normalize.css*/
 
 html {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
 
 body {
     margin: 0
+}
+
+.bike_icon {
+    height: 100px;
 }
 
 article,
