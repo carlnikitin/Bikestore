@@ -30,7 +30,7 @@ body {
     height: 100px;
 }
 
-article,
+bike,
 aside,
 details,
 figcaption,
@@ -7079,13 +7079,13 @@ footer .attribution {
     text-decoration: inherit!important
 }
 
-.article-meta {
+.bike-meta {
     display: block;
     position: relative;
     font-weight: 300
 }
 
-.article-meta img {
+.bike-meta img {
     display: inline-block;
     vertical-align: middle;
     height: 32px;
@@ -7093,40 +7093,40 @@ footer .attribution {
     border-radius: 30px
 }
 
-.article-meta .info {
+.bike-meta .info {
     margin: 0 1.5rem 0 .3rem;
     display: inline-block;
     vertical-align: middle;
     line-height: 1rem
 }
 
-.article-meta .info .author {
+.bike-meta .info .author {
     display: block;
     font-weight: 500!important
 }
 
-.article-meta .info .date {
+.bike-meta .info .date {
     color: #bbb;
     font-size: .8rem;
     display: block
 }
 
-.article-preview {
+.bike-preview {
     border-top: 1px solid rgba(0, 0, 0, .1);
     padding: 1.5rem 0
 }
 
-.article-preview .article-meta {
+.bike-preview .bike-meta {
     margin: 0 0 1rem
 }
 
-.article-preview .preview-link h1 {
+.bike-preview .preview-link h1 {
     font-weight: 600!important;
     font-size: 1.5rem!important;
     margin-bottom: 3px
 }
 
-.article-preview .preview-link p {
+.bike-preview .preview-link p {
     font-weight: 300;
     font-size: 24px;
     color: #999;
@@ -7135,7 +7135,7 @@ footer .attribution {
     line-height: 1.3rem
 }
 
-.article-preview .preview-link span {
+.bike-preview .preview-link span {
     max-width: 30%;
     font-size: .8rem;
     font-weight: 300;
@@ -7143,13 +7143,13 @@ footer .attribution {
     vertical-align: middle
 }
 
-.article-preview .preview-link ul {
+.bike-preview .preview-link ul {
     float: right;
     max-width: 50%;
     vertical-align: top
 }
 
-.article-preview .preview-link ul li {
+.bike-preview .preview-link ul li {
     font-weight: 300;
     font-size: .8rem!important;
     padding-top: 0!important;
@@ -7195,90 +7195,90 @@ footer .attribution {
     margin-bottom: .2rem
 }
 
-.article-page .banner {
+.bike-page .banner {
     padding: 2rem 0
 }
 
-.article-page .banner h1 {
+.bike-page .banner h1 {
     font-size: 2.8rem;
     font-weight: 600
 }
 
-.article-page .banner .btn {
+.bike-page .banner .btn {
     opacity: .8
 }
 
-.article-page .banner .btn:hover {
+.bike-page .banner .btn:hover {
     transition: .1s all;
     opacity: 1
 }
 
-.article-page .banner .article-meta {
+.bike-page .banner .bike-meta {
     margin: 2rem 0 0
 }
 
-.article-page .banner .article-meta .author {
+.bike-page .banner .bike-meta .author {
     color: #fff
 }
 
-.article-page .article-content p {
+.bike-page .bike-content p {
     font-family: 'source serif pro', serif;
     font-size: 1.2rem;
     line-height: 1.8rem;
     margin-bottom: 2rem
 }
 
-.article-page .article-content h1,
-.article-page .article-content h2,
-.article-page .article-content h3,
-.article-page .article-content h4,
-.article-page .article-content h5,
-.article-page .article-content h6 {
+.bike-page .bike-content h1,
+.bike-page .bike-content h2,
+.bike-page .bike-content h3,
+.bike-page .bike-content h4,
+.bike-page .bike-content h5,
+.bike-page .bike-content h6 {
     font-weight: 500!important;
     margin: 1.6rem 0 1rem
 }
 
-.article-page .article-actions {
+.bike-page .bike-actions {
     text-align: center;
     margin: 1.5rem 0 3rem
 }
 
-.article-page .article-actions .article-meta .info {
+.bike-page .bike-actions .bike-meta .info {
     text-align: left
 }
 
-.article-page .comment-form .card-block {
+.bike-page .comment-form .card-block {
     padding: 0
 }
 
-.article-page .comment-form .card-block textarea {
+.bike-page .comment-form .card-block textarea {
     border: 0;
     padding: 1.25rem
 }
 
-.article-page .comment-form .card-footer .btn {
+.bike-page .comment-form .card-footer .btn {
     font-weight: 700;
     float: right
 }
 
-.article-page .comment-form .card-footer .comment-author-img {
+.bike-page .comment-form .card-footer .comment-author-img {
     height: 30px;
     width: 30px
 }
 
-.article-page .card {
+.bike-page .card {
     border: 1px solid #e5e5e5;
     box-shadow: none!important
 }
 
-.article-page .card .card-footer {
+.bike-page .card .card-footer {
     border-top: 1px solid #e5e5e5;
     box-shadow: none!important;
     font-size: .8rem;
     font-weight: 300
 }
 
-.article-page .card .comment-author-img {
+.bike-page .card .comment-author-img {
     display: inline-block;
     vertical-align: middle;
     height: 20px;
@@ -7286,31 +7286,31 @@ footer .attribution {
     border-radius: 30px
 }
 
-.article-page .card .comment-author {
+.bike-page .card .comment-author {
     display: inline-block;
     vertical-align: middle
 }
 
-.article-page .card .date-posted {
+.bike-page .card .date-posted {
     display: inline-block;
     vertical-align: middle;
     margin-left: 5px;
     color: #bbb
 }
 
-.article-page .card .mod-options {
+.bike-page .card .mod-options {
     float: right;
     color: #333;
     font-size: 1rem
 }
 
-.article-page .card .mod-options i {
+.bike-page .card .mod-options i {
     margin-left: 5px;
     opacity: .6;
     cursor: pointer
 }
 
-.article-page .card .mod-options i:hover {
+.bike-page .card .mod-options i:hover {
     opacity: 1
 }
 
@@ -7344,7 +7344,7 @@ footer .attribution {
     border: 1px solid #999
 }
 
-.profile-page .articles-toggle {
+.profile-page .bikes-toggle {
     margin: 1.5rem 0 -1px
 }
 
