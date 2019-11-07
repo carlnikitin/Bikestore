@@ -51,7 +51,7 @@ const BikePreview = props => {
 
       <Link to={`/bike/${bike.slug}`} className="preview-link">
         <h1>{bike.title}</h1>
-        <p>{bike.description}</p>
+        <p>{bike.description} €</p>
         <span>Read more about this bike...</span>
         <ul className="tag-list">
           {

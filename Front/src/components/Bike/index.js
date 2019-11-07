@@ -45,6 +45,7 @@ class Bike extends React.Component {
           <div className="container">
 
             <h1>{this.props.bike.title}</h1>
+            <h2>{this.props.bike.description} €</h2>
             <BikeMeta
               bike={this.props.bike}
               canModify={canModify} />

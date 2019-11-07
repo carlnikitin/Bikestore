@@ -7127,11 +7127,11 @@ footer .attribution {
 }
 
 .bike-preview .preview-link p {
-    font-weight: 300;
-    font-size: 24px;
-    color: #999;
+    font-weight: 500;
+    font-size: 34px;
+    color: #333;
     margin-bottom: 15px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.3rem
 }
 

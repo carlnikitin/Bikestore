@@ -8,13 +8,13 @@ const YourFeedTab = props => {
   if (props.token) {
     const clickHandler = ev => {
       ev.preventDefault();
-      props.onTabClick('feed', agent.Bikes.feed, agent.Bikes.feed());
+      props.onTabClick('all', agent.Bikes.feed, agent.Bikes.feed());
     }
 
     return (
       <li className="nav-item">
         <a  href=""
-            className={ props.tab === 'feed' ? 'nav-link active' : 'nav-link' }
+            className={ props.tab === 'all' ? 'nav-link active' : 'nav-link' }
             onClick={clickHandler}>
           Your Feed
         </a>
@@ -27,13 +27,13 @@ const YourFeedTab = props => {
 const GlobalFeedTab = props => {
   const clickHandler = ev => {
     ev.preventDefault();
-    props.onTabClick('all', agent.Bikes.all, agent.Bikes.all());
+    props.onTabClick('feed', agent.Bikes.all, agent.Bikes.all());
   };
   return (
     <li className="nav-item">
       <a
         href=""
-        className={ props.tab === 'all' ? 'nav-link active' : 'nav-link' }
+        className={ props.tab === 'feed' ? 'nav-link active' : 'nav-link' }
         onClick={clickHandler}>
         List of bikes
       </a>
